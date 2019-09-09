@@ -80,11 +80,7 @@ section h1 {
 	background-color: #dbe0e4;
 	border-radius: 8px;
 	box-shadow: 1px 1px 4px #d2d4d6;
-	padding: 0 30px;
-}
-
-.menu-box-inner {
-	padding: 25px 0;
+	padding: 25px 30px;
 }
 
 .menu-box img {
