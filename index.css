@@ -3,7 +3,6 @@
 	margin: 0;
 	text-decoration: none;
 	list-style: none;
-	text-align: center;
 }
 
 body {
@@ -60,6 +59,7 @@ a {
 /* top_img */
 
 #top_img {
+  text-align: center;
 	padding-top: 56px;
 	background-image: url('images/main.png');
 	width: 100%;
@@ -86,6 +86,7 @@ a {
 /* contents */
 
 .contents {
+  text-align: center;
 	padding-top: 60px;
 }
 
