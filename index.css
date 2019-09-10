@@ -1,65 +1,5 @@
-* {
-	padding: 0;
-	margin: 0;
-	text-decoration: none;
-	list-style: none;
-}
-
-body {
-	color: #5a5c5f;
-}
-
-.container {
-	margin: 0 30px;
-}
-
-/* header */
-
-.logo {
-	display: none;
-}
-
-header {
-	height: 56px;
-	background-color: #fff;
-	font-size: 14px;
-	line-height: 56px;
-	position: fixed;
-	top: 0;
-	left: 0;
-	z-index: 1;
-	width: 100%;
-	box-shadow: 0px -3px 11px #b7b7b7;
-}
-
-header ul {
-	display: flex;
-	justify-content: center;
-}
-
-header li {
-	margin-right: 10px;
-	margin-top: 3px;
-	line-height: 50px;
-	height: 50px;
-	padding: 0 5px;
-	text-decoration: underline;
-}
-
-header li:hover {
-	background-color: #e2f1ff;
-	transition: all 0.8s ease;
-	cursor: pointer;
-}
-
-a {
-	color: #5a5c5f;
-}
-
-/* top_img */
-
 #top_img {
-  text-align: center;
+	text-align: center;
 	padding-top: 56px;
 	background-image: url('images/main.png');
 	width: 100%;
@@ -86,7 +26,7 @@ a {
 /* contents */
 
 .contents {
-  text-align: center;
+	text-align: center;
 	padding-top: 60px;
 }
 
@@ -109,56 +49,4 @@ a {
 	font-size: 13px;
 	padding-top: 10px;
 	/* padding-bottom: 60px; */
-}
-
-/* footer */
-
-footer {
-	margin-top: 60px;
-	padding-top: 25px;
-	background-color: #2f3a44;
-	height: 110px;
-	color: #fff;
-}
-
-.footer-left {
-	float: left;
-}
-
-.share-button {
-	padding-top: 10px;
-	text-align: left;
-}
-
-.footer-right {
-	float: right;
-	padding-top: 20px;
-}
-
-@media screen and (min-width: 517px) {
-	#top_img {
-		height: 410px;
-	}
-}
-
-@media screen and (min-width: 671px) {
-	.logo {
-		display: flex;
-		float: left;
-		padding-top: 8px;
-	}
-
-	header ul {
-		float: right;
-		font-size: 16px;
-	}
-
-	.icetee_img {
-		width: 450px;
-		height: 300px;
-	}
-
-	.contents > p {
-		font-size: 16px;
-	}
 }

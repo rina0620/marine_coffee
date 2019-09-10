@@ -1,0 +1,25 @@
+@media screen and (min-width: 517px) {
+	#top_img {
+		height: 410px;
+	}
+}
+
+@media screen and (min-width: 671px) {
+	.logo {
+		display: block;
+		float: left;
+		padding-top: 8px;
+	}
+
+	header ul {
+		float: right;
+		font-size: 16px;
+	}
+}
+
+@media screen and (min-width: 1025px) {
+	.container {
+		width: 1000px;
+		margin: auto;
+	}
+}
