@@ -1,17 +1,9 @@
-section {
-	padding-top: 56px;
-}
-
-section h1 {
-	margin: 35px 0;
-}
-
 #menus {
 	text-align: center;
 	display: grid;
 	gap: 40px;
 	grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-	margin: 0 20px;
+	margin: 35px 20px;
 }
 
 .menu-box {
