@@ -6,7 +6,7 @@
 		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Marine Coffee</title>
     <link rel="icon" href="images/favicon.ico">
-    <link rel="stylesheet" type="text/css" href="index.css" />
+    <link rel="stylesheet" type="text/css" href="contact.css" />
     <link rel="stylesheet" type="text/css" href="common.css" />
     <link rel="stylesheet" type="text/css" href="responsive.css" />
 	</head>
@@ -26,27 +26,24 @@
 				</nav>
 			</div>
 		</header>
-		<div id="top_img">
-			<div class="container">
-				<div id="top_text">
-					<h1>Marine Coffee</h1>
-					<h2>東京の中心にある、隠れ家的カフェ</h2>
-					<p>
-						渋谷にある「Marine Coffee」の公式サイトです。<br />店長こだわりのコーヒーを落ち着いた雰囲気で楽しめます。<br />是非一度お立ち寄りください。
-					</p>
-				</div>
-			</div>
-    </div>
     <section>
       <div class="container">
-        <div class="contents">
-          <h2>今月のオススメ</h2>
-          <img class="icetee_img" src="images/lemon-tea.jpg" width="280px" height="186.75px" />
-          <h3>レモンティー</h3>
-          <p>
-            今月のおすすめメニューは「レモンティー」です。<br />爽やかなレモンの風味をお楽しみください。
-          </p>
-        </div>
+        <form>
+          <h1>お問い合わせ</h1>
+          <p>氏名</p>
+          <input type="text" name="name">
+          <p>メールアドレス</p>
+          <input type="email" name="mail">
+          <p>種類</p>
+          <select name="value">
+            <option value="store">お店に関して</option>
+            <option value="recruit">採用に関して</option>
+            <option value="other">その他</option>
+          </select>
+          <p>内容</p>
+          <textarea name="naiyo" rows="4"></textarea>
+          <input class="button" type="submit" name="submit" value="送信">
+        </form>
       </div>
     </section>
 		<footer>
