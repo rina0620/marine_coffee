@@ -1,9 +1,7 @@
 "use strict";
 
-alert('テスト');
+const toggle = document.getElementById('fa-times');
 
-// const toggle = getElementById('fa-times');
-
-// toggle.addEventListener(click, () => {
-//   alert('テスト');
-// })
+toggle.addEventListener('click', () => {
+  alert('テスト');
+});
