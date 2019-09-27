@@ -64,7 +64,9 @@ a {
 }
 
 #toggle_menu {
-  display: none;
+  position: absolute;
+  top: 0;
+  right: -120px;
 }
 
 #toggle_menu.open {
@@ -79,12 +81,8 @@ a {
 	width: 120px;
 	min-height: 100%;
 	background-color: #000;
+  transition: 0.4s;
 }
-
-/* #toggle_menu.close {
-  position: absolute;
-  right: -300px;
-} */
 
 #pc_menu {
 	display: none;
