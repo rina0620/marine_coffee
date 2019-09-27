@@ -5,6 +5,18 @@
 }
 
 @media screen and (min-width: 671px) {
+  header a:hover {
+	background-color: #e2f1ff;
+	transition: all 0.8s ease;
+	cursor: pointer;
+}
+
+  a {
+    color: #5a5c5f;
+    padding: 18px 10px;
+    line-height: 56px;
+  }
+
 	.fas.fa-bars {
 		display: none;
 	}
