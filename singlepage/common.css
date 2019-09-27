@@ -13,6 +13,18 @@ body {
 	margin: 0 30px;
 }
 
+section {
+	padding-bottom: 56px;
+}
+
+section:nth-child(odd) {
+	background-color: #ffffe0;
+}
+
+section h1 {
+	padding-top: 70px;
+}
+
 /* header */
 
 .logo {
@@ -48,15 +60,9 @@ a {
 	line-height: 56px;
 }
 
-section h1 {
-	padding-top: 56px;
-	margin-top: 35px;
-}
-
 /* footer */
 
 footer {
-	margin-top: 150px;
 	padding-top: 20px;
 	background-color: #2f3a44;
 	height: 120px;
