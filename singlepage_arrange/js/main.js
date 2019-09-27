@@ -10,6 +10,7 @@
   // id:coverを取得
   // const cover = document.getElementById('cover');
   const t_link = document.getElementsByClassName('t_link');
+  const logo = document.getElementsByClassName('logo');
 
   // ハンバーガーを押したときにopenクラスをつける
   toggle_open.addEventListener('click', () => {
@@ -23,7 +24,13 @@
     // cover.classList.remove('menu_open')
   });
 
-  t_link.addEventListener('click', () => {
+// これやるならfor文で回さないといけない
+  t_link[0].addEventListener('click', () => {
     toggle_menu.classList.remove('open');
-  })
+  });
+
+// トップスクロールググり中
+  logo[0].addEventListener('click', () => {
+    // scrollIntoView(0. 0);
+  });
 }
