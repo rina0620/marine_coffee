@@ -28,6 +28,7 @@ section h1 {
 /* header */
 
 header {
+  z-index: 1;
 	height: 56px;
 	background-color: #fff;
 	font-size: 13px;
@@ -63,13 +64,17 @@ a {
 }
 
 #toggle_menu {
+  z-index: 3;
   position: absolute;
+  position: fixed;
   top: 0;
+  height: 100%;
   right: -120px;
+  transition: 0.4s;
 }
 
 #toggle_menu.open {
-	z-index: 2;
+	z-index: 3;
   display: block;
 	position: absolute;
 	position: fixed;
@@ -77,7 +82,7 @@ a {
 	right: 0;
 	margin: 0;
 	padding: 10px;
-	width: 120px;
+	width: 150px;
 	min-height: 100%;
 	background-color: #000;
   transition: 0.4s;
@@ -87,8 +92,8 @@ a {
   /* color: #fff; */
 }
 
-#cover.menu_open {
-  z-index: 1;
+/* #cover.menu_open {
+  z-index: 2;
   background-color: #000;
   opacity: 0.5;
   width: 100%;
@@ -96,7 +101,8 @@ a {
   position: absolute;
   top: 0;
   left: 0;
-}
+  overflow-y: hidden;
+} */
 
 #pc_menu {
 	display: none;
