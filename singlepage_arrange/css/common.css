@@ -34,7 +34,6 @@ header {
 	position: fixed;
 	top: 0;
 	left: 0;
-	z-index: 1;
 	width: 100%;
 	box-shadow: 0px -3px 11px #b7b7b7;
 }
@@ -70,7 +69,7 @@ a {
 }
 
 #toggle_menu.open {
-	z-index: 1;
+	z-index: 2;
   display: block;
 	position: absolute;
 	position: fixed;
@@ -82,6 +81,21 @@ a {
 	min-height: 100%;
 	background-color: #000;
   transition: 0.4s;
+}
+
+#toggle_menu a {
+  /* color: #fff; */
+}
+
+#cover.menu_open {
+  z-index: 1;
+  background-color: #000;
+  opacity: 0.5;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
 #pc_menu {
