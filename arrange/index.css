@@ -6,12 +6,17 @@
 	height: 500px;
 	background-size: cover;
 	color: #f5f5f5;
-	opacity: 0.9;
 	line-height: center;
 }
 
+#top_text > h1,
+h2,
+p {
+	opacity: 0.9;
+}
+
 #top_text > h1 {
-	padding-top: 65px;
+	padding-top: 60px;
 	font-size: 60px;
 }
 
@@ -21,7 +26,7 @@
 }
 
 #top_text > p {
-	padding-top: 60px;
+	padding-top: 30px;
 }
 
 /* contents */
