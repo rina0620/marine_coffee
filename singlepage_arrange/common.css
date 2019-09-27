@@ -17,6 +17,10 @@ section {
 	padding-bottom: 56px;
 }
 
+section:nth-child(odd) {
+	background-color: #ffffe0;
+}
+
 section h1 {
 	padding-top: 70px;
 }
