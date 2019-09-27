@@ -13,12 +13,18 @@
 		float: left;
 	}
 
-	nav > ul > li {
+	#toggle_menu {
+		display: none;
+	}
+
+	#pc_menu {
 		display: block;
 		float: right;
 	}
 
-	header ul {
+	#pc_menu > ul {
+		display: flex;
+		justify-content: center;
 		float: right;
 		font-size: 16px;
 	}
