@@ -50,6 +50,8 @@ a {
 	margin: 10px;
 }
 
+/* ハンバーガーメニュー */
+
 .fas.fa-bars {
 	font-size: 30px;
 	line-height: 56px;
@@ -61,8 +63,13 @@ a {
   float: right;
 }
 
+#toggle_menu {
+  display: none;
+}
+
 #toggle_menu.open {
 	z-index: 1;
+  display: block;
 	position: absolute;
 	position: fixed;
 	top: 0;
@@ -74,10 +81,10 @@ a {
 	background-color: #000;
 }
 
-#toggle_menu.close {
+/* #toggle_menu.close {
   position: absolute;
   right: -300px;
-}
+} */
 
 #pc_menu {
 	display: none;
