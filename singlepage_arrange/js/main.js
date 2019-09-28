@@ -9,7 +9,7 @@
   const toggle_menu = document.getElementById('toggle_menu');
   // id:coverを取得
   // const cover = document.getElementById('cover');
-  const t_link = document.getElementsByClassName('t_link');
+  const t_links = document.getElementsByClassName('t_link');
   const logo = document.getElementsByClassName('logo');
 
   // ハンバーガーを押したときにopenクラスをつける
@@ -25,12 +25,15 @@
   });
 
 // これやるならfor文で回さないといけない
-  t_link[0].addEventListener('click', () => {
-    toggle_menu.classList.remove('open');
-  });
+// lengthは配列の数も返してくれる
+  for (let i = 0; i < t_links.length; i++) {
+    t_links[i].addEventListener('click', () => {
+      toggle_menu.classList.remove('open');
+    }, false);
+  }
 
 // トップスクロールググり中
   logo[0].addEventListener('click', () => {
-    // scrollIntoView(0. 0);
+    scrollTo(0, 0);
   });
 }
