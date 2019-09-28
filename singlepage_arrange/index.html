@@ -32,7 +32,7 @@
 		<header>
 			<div class="container">
         <div class="logo">
-          <img src="images/logo.png" width="132.53" height="40">
+          <a href="#"><img src="images/logo.png" width="132.53" height="40"></a>
         </div>
         <i class="fas fa-bars" id="fa-bars"></i>
 				<nav id="pc_menu">
@@ -163,8 +163,14 @@
 				<div class="footer-right">
 					<p>&copy; 2019 Marine Coffee.</p>
 				</div>
-			</div>
+      </div>
+      <!-- {const scroll}を有効にするためにsomooth-scrollを先に読み込まないと動かない -->
+      <script src="js/smooth-scroll.polyfills.min.js"></script>
+      <script>
+      	const scroll = new SmoothScroll('a[href*="#"]');
+      </script>
     </footer>
+    <!-- jsでhtml内の要素を取得してたりするから一番最後に読み込まないとundefinedエラーが出る -->
     <script type="text/javascript" src="js/main.js"></script>
 	</body>
 </html>

@@ -1,6 +1,7 @@
 "use strict";
 
 {
+  // const scroll = new SmoothScroll('a[href*="#"]');
   // ×ボタンを取得
   const toggle_close = document.getElementById('fa-times');
   // ハンバーガーボタンを取得
@@ -34,6 +35,7 @@
 
 // トップスクロールググり中
   logo[0].addEventListener('click', () => {
-    scrollTo(0, 0);
+    // scrollTo(0, 0);
+    toggle_menu.classList.remove('open');
   });
 }
